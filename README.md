@@ -11,7 +11,7 @@ Weather-CSS is a simple weather application built with HTML, CSS, and JavaScript
 - [Contributing](#contributing)
 
 
-## Demo
+<!-- ## Demo -->
 
 <!-- You can see a live demo of the Weather-CSS application [here](https://ravkeerat02.github.io/Weather-CSS/). -->
 
@@ -53,11 +53,6 @@ Weather-CSS is a simple weather application built with HTML, CSS, and JavaScript
 <p>Displays the weather forecast for the next 4 days
 
 <hr>
-
-
-
-
-**It is still unded process . So please mind the styling**
 
 
 ## Contributing
