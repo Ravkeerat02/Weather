@@ -24,6 +24,9 @@ function App() {
 
 
 
+
+
+
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric' });
@@ -31,15 +34,27 @@ var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: '
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=bf2bc6bbcd70057a1882c61b48d7ca4c`
 
-  const searchLocation = (event) => {
+  // displays the data if the location is entered and displays an error if the location is not entered(wrong)
+  const searchLocation = async (event) => {
     if (event.key === 'Enter') {
-      axios.get(url).then((response) => {
-        setData(response.data)
-        console.log(response.data)
-      })
-      setLocation('')
+      if (location === '') {
+        alert('Please enter a location');
+      } else {
+        try {
+          const response = await axios.get(url);
+          setData(response.data);
+          console.log(response.data);
+        } catch (error) {
+          alert('An error occurred while fetching the data');
+          console.log(error);
+        }
+        setLocation('');
+      }
     }
-  }
+  };
+  
+  
+  
 
   return (
     <div className="app">
