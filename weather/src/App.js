@@ -29,7 +29,7 @@ const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 const dayIndex = new Date().getDay()
 const day = days[dayIndex]
 
-
+// displays the date and time
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric' });
@@ -157,6 +157,7 @@ var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: '
           <table className="fore">
           <tbody>
       <tr>
+        <td>{day}</td>
         <td>{date}</td>
         <td>{data.main ? <p className='bold'>{Math.round(data.main.temp)}°C</p> : null}</td>
         <td>
@@ -164,6 +165,7 @@ var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: '
         </td>
       </tr>
       <tr>
+        <td>{day}</td>
         <td>{date}</td>
         <td>{data.main ? <p className='bold'>{Math.round(data.main.temp)}°C</p> : null}</td>
         <td>
@@ -171,6 +173,7 @@ var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: '
         </td>
       </tr>
       <tr>
+        <td>{day}</td>
         <td>{date}</td>
         <td>{data.main ? <p className='bold'>{Math.round(data.main.temp)}°C</p> : null}</td>
         <td>
@@ -178,6 +181,7 @@ var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: '
         </td>
       </tr>
       <tr>
+        <td>{day}</td>
         <td>{date}</td>
         <td>{data.main ? <p className='bold'>{Math.round(data.main.temp)}°C</p> : null}</td>       
         <td>
