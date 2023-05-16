@@ -24,7 +24,10 @@ function App() {
 
 
 
-
+// displays the day 
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const dayIndex = new Date().getDay()
+const day = days[dayIndex]
 
 
 var today = new Date();
@@ -84,8 +87,8 @@ var currentTime = today.toLocaleTimeString('en-US', { hour: 'numeric', minute: '
             <div className = "currentTime">
                 <p>Current Time: {currentTime}</p>
             </div>
-            <div className= "date">
-                <p>Date: {date}</p>
+            <div className ="dayDate">
+                <p>Current: {day}, {date}</p>
             </div>
             <br></br>
           <p>Temperature is as follows:</p>
