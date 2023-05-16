@@ -120,9 +120,9 @@ h1 {
 }
 
 .flag {
-  width: 75px;
-  height:75px;
-  border-radius: 50%;
+  width: 250px;
+  height:250px;
+  border-radius: 25%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
