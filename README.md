@@ -42,15 +42,15 @@ Weather-CSS is a simple weather application built with HTML, CSS, and JavaScript
 3. The current weather information for the specified location will be displayed.
 
 ## Screenshots
-
-![Console Display](https://github.com/Ravkeerat02/Weather/blob/main/weather/SS/CONSOLE.png)
-<p>Displays the weather information in JSON format
-
+![Postman](https://github.com/Ravkeerat02/Weather/blob/main/weather/SS/Postman.png)
+<p> Displays weather infomration of selected city in JSON format
+   
 ![Weather](https://github.com/Ravkeerat02/Weather/blob/main/weather/SS/Weather.png)
 <p>Displays the weather information for the specified location
 
 ![Foreacst](https://github.com/Ravkeerat02/Weather/blob/main/weather/SS/Fore.png)
 <p>Displays the weather forecast for the next 4 days
+  
 
 <hr>
 
