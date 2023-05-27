@@ -3,12 +3,13 @@
 Weather-CSS is a simple weather application built with HTML, CSS, and JavaScript. It provides real-time weather information for a given location.
 
 ## Table of Contents
-- [Demo](#demo)
+<!-- - [Demo](#demo) -->
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Instructions](#instructions)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
+
 
 
 <!-- ## Demo -->
@@ -35,7 +36,7 @@ Weather-CSS is a simple weather application built with HTML, CSS, and JavaScript
 
 3. Open the `index.html` file in a web browser.
 
-## Usage
+## Instructions
 
 1. Enter the location for which you want to check the weather in the search bar.
 2. Press the Enter key or click the search button.
